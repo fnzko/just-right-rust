@@ -7,6 +7,8 @@ The plugin currently provides:
 
 - guidance for async Rust built on Tokio, actors, and cancellation-safe
   concurrency;
+- guidance for modelling domain data with types: enums for closed sets,
+  newtypes for identifiers, and input parsed once at the boundary;
 - Google's unsafe Rust review skill;
 - a portable Symposium hook engine.
 
