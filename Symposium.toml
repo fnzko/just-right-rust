@@ -7,3 +7,13 @@ source.git = "https://github.com/google/rust-skills/tree/main/unsafe_rust_review
 
 [[skills]]
 source.path = "skills"
+
+[[hooks]]
+name = "rust-rules-session-start"
+event = "SessionStart"
+command = { script = "hooks/session-start.sh" }
+
+[[hooks]]
+name = "rust-rules-stop"
+event = "Stop"
+command = { script = "hooks/stop.sh" }
